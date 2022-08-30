@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/my-astro-site.iml" filepath="$PROJECT_DIR$/.idea/my-astro-site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/astro-islands-showcase.iml" filepath="$PROJECT_DIR$/.idea/astro-islands-showcase.iml" />
     </modules>
   </component>
 </project>

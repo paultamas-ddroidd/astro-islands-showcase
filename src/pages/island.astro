@@ -4,12 +4,19 @@ import Layout from "../layouts/Layout.astro";
 import Counter from '../components/react/Counter/Counter';
 ---
 <Layout title="About page">
-    <Card 
-    href="/" 
-    title="Home"
-    body="Go back to home page" />
+    <ul role="list" class="link-card-grid">
+        <Card 
+            href="/" 
+            title="Home"
+            body="Go back to home page" />
+    </ul>
 </Layout>
 <Counter client:load class="counter" counter={5}/> 
 
 <style lang="scss">
+    .link-card-grid {
+        padding: 0;
+        margin: 10px;
+    }
+    
 </style>
