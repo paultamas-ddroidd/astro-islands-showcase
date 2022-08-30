@@ -1,0 +1,15 @@
+---
+import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro";
+import Counter from '../components/react/Counter/Counter';
+---
+<Layout title="About page">
+    <Card 
+    href="/" 
+    title="Home"
+    body="Go back to home page" />
+</Layout>
+<Counter client:load class="counter" counter={5}/> 
+
+<style lang="scss">
+</style>
